@@ -71,7 +71,6 @@ body {
     justify-content: space-between;
     padding: 20px 80px;
     background: #b5cfc4;
-    background-color: transparent;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     box-shadow: #222;
     text-shadow: #465b52;
@@ -151,6 +150,43 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+}
+
+#features .featurebox{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 80px 80px rgba(0, 0, 0, 0.06);
+    border: 1px solid #b5cfc4;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+#features .featurebox:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 222, 0.1);
+}
+
+#features .featurebox h6{
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #465b52;
+    background-color: aqua;
+    display: inline-block;
+}
+
+#features .featurebox img{
+    margin-bottom: 10px;
+}
+
+#features{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 
